@@ -35,7 +35,7 @@ Deploy
 ------
 
 ```shell
-$ npm deploy
+$ npm run deploy
 ```
 
 This will redeploy the website to the `gh-pages` branch on Github.
