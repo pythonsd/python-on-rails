@@ -2,22 +2,24 @@
 @import "variables";
 @import "bootstrap";
 
-.equal, .equal > div[class*='col-'] {
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  flex: 1 0 auto;
-}
+@media (min-width: $screen-md-min) {
+  .equal-md, .equal-md > div[class*='col-'] {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex: 1 0 auto;
+  }
 
 
-.panel {
-  display: flex;
-  flex-direction: column;
-  align-content: stretch;
-}
+  .panel {
+    display: flex;
+    flex-direction: column;
+    align-content: stretch;
+  }
 
-.panel-body {
-  flex-grow: 1;
+  .panel-body {
+    flex-grow: 1;
+  }
 }
