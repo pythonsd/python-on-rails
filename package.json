@@ -24,8 +24,8 @@
   },
   "scripts": {
     "postinstall": "bower install",
-    "deploy": "gulp deploy",
-    "start": "gulp",
+    "deploy": "./node_modules/gulp-cli/bin/gulp.js deploy",
+    "start": "./node_modules/gulp-cli/bin/gulp.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
